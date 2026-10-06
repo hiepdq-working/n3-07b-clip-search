@@ -1,0 +1,27 @@
+# Dữ liệu BDD100K: giấy phép KHÔNG cho phân phối lại -> không bao giờ commit
+data/
+*.npy
+*.zip
+*.jpg
+*.jpeg
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Hệ điều hành / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Video demo nặng — để trên Drive nhóm
+*.mp4
+*.mov

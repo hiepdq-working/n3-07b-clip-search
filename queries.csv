@@ -1,0 +1,16 @@
+query_id,split,query,filters,metadata_covers,definition
+D01,dev,pedestrian crossing the street,timeofday=night;weather=rainy,yes,Có ít nhất một người đi bộ đang ở trên lòng đường (đang băng qua); người đứng trên vỉa hè không tính
+D02,dev,truck carrying an oversized load,,no,Xe tải chở hàng nhô ra ngoài thùng hoặc cao/rộng bất thường so với xe
+D03,dev,yellow school bus,,no,Thấy rõ xe buýt trường học màu vàng (kiểu Mỹ); xe buýt thành phố không tính
+D04,dev,motorcycle on the road at night,timeofday=night,yes,Có ít nhất một xe máy (có hoặc không có người lái) trên đường; xe đạp không tính
+D05,dev,wet road reflecting street lights,,no,Mặt đường ướt phản chiếu rõ ánh đèn đường hoặc đèn xe
+T01,test,person holding an umbrella,,no,Có ít nhất một người đang cầm/che ô nhìn thấy rõ được
+T02,test,flooded road,,no,Mặt đường có nước đọng thành vũng lớn hoặc ngập che khuất vạch kẻ đường
+T03,test,road construction zone with traffic cones,,no,Thấy công trường trên đường: cọc tiêu/hàng rào chắn/biển công trường chiếm một phần làn đường
+T04,test,car parked in the driving lane,,no,Có xe đỗ/dừng chiếm làn xe chạy (không phải làn đỗ xe bên lề) và cản đường xe ghi hình
+T05,test,blinding headlight glare,timeofday=night,no,Đèn pha xe đối diện gây lóa mạnh che khuất một phần ảnh
+T06,test,bus on a city street at night,timeofday=night;scene=city street,yes,Có ít nhất một xe buýt nhìn thấy rõ (không chỉ một góc nhỏ)
+T07,test,road covered in snow,weather=snowy,yes,Mặt đường hoặc lề đường có tuyết phủ nhìn thấy rõ
+T08,test,cyclist riding on the road,,yes,Có người đang đạp xe đạp trên lòng đường; xe máy không tính; xe đạp không người không tính
+T09,test,driving through a tunnel,scene=tunnel,yes,Xe ghi hình đang ở trong hầm (thấy vách/trần hầm)
+T10,test,pedestrians on a foggy street,weather=foggy,yes,Trời sương mù và có ít nhất một người đi bộ nhìn thấy được

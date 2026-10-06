@@ -1,0 +1,12 @@
+# Python 3.10–3.12. Cuối tuần 1, khi mọi máy đã chạy ổn:
+#   pip freeze > requirements-lock.txt   (và commit file đó để mọi người cài đúng phiên bản)
+torch>=2.2
+torchvision>=0.17
+open_clip_torch>=2.24
+pillow>=10.0
+pandas>=2.0
+numpy>=1.24
+tqdm>=4.66
+streamlit>=1.50
+scikit-learn>=1.3
+matplotlib>=3.7
